@@ -1,0 +1,25 @@
+.form__container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5em;
+  position: sticky;
+  top: 0;
+  max-height: 3rem;
+  z-index: 20;
+  background-color: #cbf1f5;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.form__input {
+  padding: 1.2em;
+  margin-left: 10px;
+  border: 1px solid #71c9ce;
+  border-radius: 2px;
+}
+
+.form__select {
+  margin-left: 10px;
+  border: 1px solid #71c9ce;
+  border-radius: 2px;
+}

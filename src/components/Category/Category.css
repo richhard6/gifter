@@ -1,0 +1,15 @@
+.flex__category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex__category > li {
+  display: block;
+  margin: 1em;
+  cursor: pointer;
+}
+
+.category__container > h3 {
+  margin-top: 1em;
+}

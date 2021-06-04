@@ -1,0 +1,78 @@
+.Gif {
+  --gifShadow-size: var(--gridList-gap, 6px);
+  margin-bottom: 0.5em;
+  position: relative;
+  margin: 1em;
+}
+
+.Gif-link {
+  color: #000;
+  display: block;
+  text-decoration: none;
+  position: relative;
+  width: 100%;
+}
+
+.Gif h4 {
+  background: rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  font-size: 12px;
+  color: #fff;
+  margin: 0;
+  position: absolute;
+}
+
+.Gif-buttons {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 1;
+}
+
+.Gif img {
+  width: 100%;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+i {
+  font-size: 80px;
+}
+
+.Gif {
+  margin-bottom: 0;
+}
+
+.Gif,
+.Gif-link {
+  height: 100%;
+  text-transform: capitalize;
+}
+.Gif-link img {
+  height: inherit;
+  object-fit: cover;
+}
+
+.Gif:nth-child(11n + 1) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.Gif:nth-child(8n + 1) {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+
+.Gif:nth-child(10n + 3) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+@media screen and (max-width: 45rem) {
+  .Gif:nth-child(11n + 1),
+  .Gif:nth-child(8n + 1),
+  .Gif:nth-child(10n + 3) {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+}

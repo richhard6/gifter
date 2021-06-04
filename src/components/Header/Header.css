@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  background: #a6e3e9;
+  margin-bottom: 1em;
+  width: 100vw;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.app_name {
+  text-align: center;
+
+  margin-left: 2em;
+}
+
+.login {
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+}
+
+.register {
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+header a + a {
+  margin: 0 4px;
+}
